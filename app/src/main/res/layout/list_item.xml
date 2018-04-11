@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_weight="1"
+    android:background="@color/colorWaite"
+    style="@style/Song_list"
+    android:baselineAligned="false">
+    <LinearLayout
+        style="@style/Layout_list_One"
+        android:layout_weight="1">
+      <TextView
+        android:id="@+id/song_name"
+        style="@style/textNameYear"/>
+        <TextView
+        android:id="@+id/song_year"
+        style="@style/textNameYear"/>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/Layout_list_Two">
+       <ImageView
+            android:id="@+id/icon_play"
+           style="@style/ImagePlay"/>
+    </LinearLayout>
+</LinearLayout>

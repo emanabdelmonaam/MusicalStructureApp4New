@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Musical Structure App</string>
+    <string name="category_main">UnderGround Music</string>
+    <string name="category_Autostra">Autostrad Band</string>
+    <string name="category_AzizMarka">Aziz Maraka</string>
+    <string name="category_CairokyBand">Cairokee Band</string>
+    <string name="category_Elmorabb3">Elmorabb3 Band</string>
+    <string name="category_Hamza">Hamza Namera</string>
+    <string name="category_Masar">Masar Egbary Band</string>
+    <string name="search_icon">Search in App</string>
+    <string name="bott_next"> UnderGround \n Music</string>
+    <string name="listenToSong">listen To Song</string>
+</resources>

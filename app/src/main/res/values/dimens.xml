@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="paddingCon">20dp</dimen>
+    <dimen name="marginCon">20dp</dimen>
+    <dimen name="marginTopText">60dp</dimen>
+    <dimen name="marginTopLeft">15dp</dimen>
+    <dimen name="marginTopRight">15dp</dimen>
+    <dimen name="marginBottMain">5dp</dimen>
+    <dimen name="textSize">30sp</dimen>
+    <dimen name="textSize2">27sp</dimen>
+    <dimen name="andriod_text_hight">20sp</dimen>
+    <dimen name="imageBandSize">150dp</dimen>
+    <dimen name="paddingNext">20dp</dimen>
+    <dimen name="linar_width">0dp</dimen>
+    <dimen name="main_icon_play_height">50dp</dimen>
+    <dimen name="tex_main_padding">170dp</dimen>
+    <dimen name="size_play_and_stop">70dp</dimen>
+</resources>

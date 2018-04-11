@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <color name="colorPrimary">#0D47A1</color>
+        <color name="colorPrimaryDark">#303F9F</color>
+        <color name="colorAccent">#FF4081</color>
+        <color name="colorButton">#2196F3</color>
+        <color name="question">#42A5F5</color>
+        <color name="mTopic">#0D47A1</color>
+        <color name="backGroundB">#000</color>
+        <color name="colorWaite">#FFFFFF</color>
+        <color name="colorGray">#E0E0E0</color>
+</resources>

@@ -1,0 +1,149 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/backGroundB</item>
+        <item name="colorPrimaryDark">@color/backGroundB</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="MainA">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/backGroundB</item>
+    </style>
+    <style name="Song_list">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/paddingCon</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="Layout_list_One">
+        <item name="android:layout_width">@dimen/linar_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="textNameYear">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <style name="Layout_list_Two">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="ImagePlay">
+        <item name="android:layout_width">@dimen/main_icon_play_height</item>
+        <item name="android:layout_height">@dimen/main_icon_play_height</item>
+    </style>
+    <style name="MainBo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/bott_next</item>
+        <item name="android:textSize">@dimen/textSize2</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:paddingLeft">@dimen/marginTopRight</item>
+        <item name="android:paddingRight">@dimen/marginTopRight</item>
+        <item name="android:paddingBottom">@dimen/main_icon_play_height</item>
+        <item name="android:textColor">@color/colorWaite</item>
+    </style>
+    <style name="ScrollViewMain">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@color/backGroundB</item>
+    </style>
+    <style name="ConstraintLayout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingTop">@dimen/paddingCon</item>
+        <item name="android:paddingBottom">@dimen/paddingCon</item>
+        <item name="android:layout_marginLeft">@dimen/paddingCon</item>
+        <item name="android:layout_marginRight">@dimen/paddingCon</item>
+    </style>
+    <style name="SearchView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_margin">@dimen/paddingCon</item>
+        <item name="android:iconifiedByDefault">false</item>
+        <item name="android:background">@color/colorGray</item>
+        <item name="android:queryHint">@string/search_icon</item>
+    </style>
+    <style name="TextViewMainn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/marginTopLeft</item>
+        <item name="android:layout_marginRight">@dimen/marginTopRight</item>
+        <item name="android:layout_marginTop">@dimen/marginTopText</item>
+        <item name="android:paddingBottom">@dimen/paddingCon</item>
+        <item name="android:text">@string/category_main</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorWaite</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/textSize</item>
+    </style>
+    <style name="CategoryAutos">
+        <item name="android:layout_width">@dimen/imageBandSize</item>
+        <item name="android:layout_height">@dimen/imageBandSize</item>
+        <item name="android:layout_marginTop">@dimen/marginCon</item>
+        <item name="android:layout_marginLeft">@dimen/marginCon</item>
+        <item name="android:background">@drawable/autostrad1</item>
+    </style>
+    <style name="CategoryAziz">
+        <item name="android:layout_width">@dimen/imageBandSize</item>
+        <item name="android:layout_height">@dimen/imageBandSize</item>
+        <item name="android:layout_marginTop">@dimen/marginCon</item>
+        <item name="android:layout_marginLeft">@dimen/marginCon</item>
+        <item name="android:background">@drawable/mqdefault</item>
+    </style>
+    <style name="CategoryCairoc">
+        <item name="android:layout_width">@dimen/imageBandSize</item>
+        <item name="android:layout_height">@dimen/imageBandSize</item>
+        <item name="android:layout_marginTop">@dimen/marginCon</item>
+        <item name="android:layout_marginLeft">@dimen/marginCon</item>
+        <item name="android:background">@drawable/cairokee</item>
+    </style>
+    <style name="CategoryElmorab3">
+        <item name="android:layout_width">@dimen/imageBandSize</item>
+        <item name="android:layout_height">@dimen/imageBandSize</item>
+        <item name="android:layout_marginTop">@dimen/marginCon</item>
+        <item name="android:layout_marginLeft">@dimen/marginCon</item>
+        <item name="android:background">@drawable/elmorabbaa</item>
+    </style>
+    <style name="CategoryHamza">
+        <item name="android:layout_width">@dimen/imageBandSize</item>
+        <item name="android:layout_height">@dimen/imageBandSize</item>
+        <item name="android:layout_marginTop">@dimen/marginCon</item>
+        <item name="android:layout_marginLeft">@dimen/marginCon</item>
+        <item name="android:layout_marginBottom">@dimen/marginCon</item>
+        <item name="android:background">@drawable/hamza2</item>
+    </style>
+    <style name="CategoryMasar">
+        <item name="android:layout_width">@dimen/imageBandSize</item>
+        <item name="android:layout_height">@dimen/imageBandSize</item>
+        <item name="android:layout_marginTop">@dimen/marginCon</item>
+        <item name="android:layout_marginLeft">@dimen/marginCon</item>
+        <item name="android:layout_marginBottom">@dimen/marginCon</item>
+        <item name="android:background">@drawable/masar2</item>
+    </style>
+    <style name="sekeebar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/paddingCon</item>
+        <item name="android:layout_marginTop">@dimen/marginTopLeft</item>
+        <item name="android:layout_marginBottom">@dimen/size_play_and_stop</item>
+    </style>
+    <style name="playBut">
+        <item name="android:layout_width">@dimen/size_play_and_stop</item>
+        <item name="android:layout_height">@dimen/size_play_and_stop</item>
+        <item name="android:background">@drawable/playclipart</item>
+        <item name="android:layout_marginRight">@dimen/size_play_and_stop</item>
+    </style>
+    <style name="stopBut">
+        <item name="android:layout_width">@dimen/size_play_and_stop</item>
+        <item name="android:layout_height">@dimen/size_play_and_stop</item>
+        <item name="android:background">@drawable/stopbutton</item>
+        <item name="android:layout_marginRight">@dimen/size_play_and_stop</item>
+    </style>
+</resources>
