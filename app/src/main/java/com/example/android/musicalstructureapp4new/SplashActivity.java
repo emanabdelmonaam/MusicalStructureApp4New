@@ -5,7 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-public class MainActivity extends Activity {
+public class SplashActivity extends Activity {
     Handler handler;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,7 +16,7 @@ public class MainActivity extends Activity {
             handler.postDelayed(new Runnable() {
                 @Override
                 public void run() {
-                    Intent intent=new Intent(MainActivity.this,SecondActivity.class);
+                    Intent intent=new Intent(SplashActivity.this,SecondActivity.class);
                     startActivity(intent);
                     finish();
                 }
