@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
+import android.widget.ImageButton;
 import android.widget.ListView;
 import java.util.ArrayList;
 
@@ -51,7 +52,6 @@ public class AutostratActivity extends AppCompatActivity {
                 startActivity(autost);
 
                 // play song from arrayList
-
                 if (currentPosition != position) {
                     if (mlisten != null) {
                         mlisten.stop();
@@ -67,6 +67,18 @@ public class AutostratActivity extends AppCompatActivity {
                 // start media player when i chose a song.
                 mlisten = MediaPlayer.create(AutostratActivity.this, play.getmListenSong());
                 mlisten.start();
+            }
+        });
+
+        // set back button
+        ImageButton goBack = (ImageButton) findViewById(R.id.playerList);
+        goBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+              Intent goBack = new Intent(AutostratActivity.this, SecondActivity.class);
+
+              startActivity(goBack);
             }
         });
     }
